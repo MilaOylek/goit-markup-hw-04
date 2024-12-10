@@ -39,7 +39,7 @@ button {
 /* header */
 .header-container {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 .header-nav {
@@ -79,6 +79,17 @@ header {
     color: #2e2f42;
 }
 
+/* blue-line */
+.link-stud::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background-color: blue;
+    border-radius: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
 .nav-link {
     display: block;
     padding: 24px 0;
@@ -91,6 +102,14 @@ header {
     text-decoration: none;
 }
 
+/* .link-stud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+} */
 .adres-info {
     font-style: normal;
     margin-left: auto;
@@ -132,6 +151,11 @@ header {
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+    background-repeat: no-repeat;
+    background-position: 0  0;
+    background-size: cover;
+    background-clip: padding-box;
 }
 
 .section-text {
@@ -187,6 +211,22 @@ header {
 .list-li {
     width: calc((100% - 3 * 24px) / 4);
 }
+
+.svg-icon {
+    border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+background-color: #f4f4fd;
+text-align: center;
+/* align-items: center; */
+padding-top: 16px;
+}
+
+/* .svg-item {
+    justify-content: center;
+    text-align: center;
+} */
 
 .strategy-title {
     color: #2e2f42;
@@ -284,6 +324,38 @@ header {
     display: block; 
     flex-wrap: wrap;
 }
+
+.team-icon-menu {
+    display: flex;
+justify-content: center;
+column-gap: 16px;
+}
+
+.icon-list{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-color: #4D5AE5;
+}
+
+.team-list-icons {
+    fill: #fff;
+}
+
+.icon-list-link {
+   display: flex;
+}
+
+/* footer icin example
+.icon-list-link:hover .team-list-icons,
+.icon-list-link:focus .team-list-icons {
+    fill: #31D0AA;
+}
+
+ */ 
 
 /* Section Portfolio */
 
@@ -390,4 +462,11 @@ header {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.footer-box-media {
+    display: flex;
+    width: 208px;
+height: 116px;
+padding-left: 500px;
 }
