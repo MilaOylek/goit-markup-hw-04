@@ -425,6 +425,7 @@ header {
 .li-ptf {
     width: calc((100% - 48px) / 3);
     margin: 0;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .li-ptf:nth-child(3n) {
@@ -460,6 +461,7 @@ header {
 
 .li-ptf:hover .port-parag {
     transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img-card {
