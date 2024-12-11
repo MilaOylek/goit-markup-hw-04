@@ -54,10 +54,6 @@ header {
      border-bottom: 1px solid #e7e9fc;
      box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-/* 
-.header-container {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-} */
 
 .nav-menu {
     display: flex;
@@ -99,7 +95,7 @@ header {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item.nav-link.link-stud {
+.nav-item .nav-link .link-stud {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -135,6 +131,11 @@ header {
     align-items: center;
     gap: 40px;
 }
+
+.adres-link .mailto {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .adres-link {
     display: block;
     padding: 24px 0;
@@ -239,14 +240,17 @@ header {
 }
 
 .svg-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8e8f99;
-border-radius: 4px;
-width: 264px;
-height: 112px;
-background-color: #f4f4fd;
-text-align: center;
-/* align-items: center; */
-padding-top: 16px;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    text-align: center;
+    padding-top: 16px;
+    margin-bottom: 8px;
 }
 
 /* .svg-item {
@@ -310,10 +314,6 @@ padding-top: 16px;
     flex-wrap: wrap; 
 }
 
-.team-mark {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .card-team {
     border-radius: 0 0 4px 4px;
     padding: 32px 0;
@@ -342,7 +342,8 @@ padding-top: 16px;
     margin-right: 24px;
     margin-right: 0;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);  
+    width: calc((100% - 72px) / 4);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
  img {
@@ -390,7 +391,6 @@ padding-top: 16px;
 .icon-list-link:hover .team-list-icons,
 .icon-list-link:focus .team-list-icons {
     background-color: #404bbf;
-    /* fill: #31D0AA; */
 }
 
 
