@@ -441,6 +441,7 @@ header {
 .ptf-img {
     position: relative;
     overflow: hidden;
+    /* transition: ; */
 }
 
 .port-parag {
@@ -495,6 +496,10 @@ header {
     padding: 100px 0 100px;
     display: flex;
     gap: 64px;
+}
+
+.container-footer {
+    display: flex;
 }
 
 .footer-logo-web {
