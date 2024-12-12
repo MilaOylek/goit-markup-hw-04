@@ -441,7 +441,6 @@ header {
 .ptf-img {
     position: relative;
     overflow: hidden;
-    /* transition: ; */
 }
 
 .port-parag {
@@ -461,6 +460,13 @@ header {
 }
 
 .li-ptf:hover {
+   transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
+
+.li-ptf:hover .port-parag {
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -504,6 +510,9 @@ header {
     margin-right: 120px;
 }
 
+.web-studio {
+    margin-right: 120px;
+}
 .footer-logo-web {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -529,6 +538,9 @@ header {
     max-width: 264px;
 }
 
+/* .footer-box-media {
+    margin-right: 120px;
+} */
 
 .footer-sm {
     display: flex;
@@ -545,4 +557,9 @@ header {
 
 .footer-list-icons {
     fill: #f4f4fd;
+}
+
+.icon-list:hover .icon-list-link,
+.icon-list:focus .icon-list-link {
+    background-color: #31d0aa;
 }
