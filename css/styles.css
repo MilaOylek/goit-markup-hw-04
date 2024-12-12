@@ -562,4 +562,8 @@ header {
 .icon-list:hover .icon-list-link,
 .icon-list:focus .icon-list-link {
     background-color: #31d0aa;
+    
+}
+.icon-list-link:focus {
+    background-color: #31d0aa; 
 }
