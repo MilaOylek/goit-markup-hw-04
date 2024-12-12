@@ -376,13 +376,15 @@ header {
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-list-link:hover .team-list-icons,
+/* .icon-list-link:hover .team-list-icons,
 .icon-list-link:focus .team-list-icons {
     background-color: #404bbf;
+} */
+
+.icon-list:hover .icon-list-link,
+.icon-list:focus .icon-list-link {
+    background-color: #404bbf;
 }
-
-
-
 /* Section Portfolio */
 
 .section-portfolio {
