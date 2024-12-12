@@ -363,6 +363,7 @@ header {
 
 .team-list-icons {
     fill: #f4f4fd ;
+    /* background-color: #404bbf; */
 }
 
 .icon-list-link {
@@ -380,6 +381,9 @@ header {
 .icon-list-link:focus .team-list-icons {
     background-color: #404bbf;
 } */
+.team-list-icons:focus {
+    background-color: #404bbf;
+}
 
 .icon-list:hover .icon-list-link,
 .icon-list:focus .icon-list-link {
