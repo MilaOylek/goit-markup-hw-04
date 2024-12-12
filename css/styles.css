@@ -363,14 +363,15 @@ header {
 
 .team-list-icons {
     fill: #f4f4fd ;
-    /* background-color: #404bbf; */
+    background-color: #404bbf;
 }
 
 .icon-list-link {
     width: 100%;
     height: 100%;
    display: flex;
-   background-color: #4d5ae5;
+   background-color: #404bbf;
+   /* background-color: #4d5ae5; */
    border-radius: 50%;
    justify-content: center;
    align-items: center;
