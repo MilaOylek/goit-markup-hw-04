@@ -246,11 +246,6 @@ header {
     margin-bottom: 8px;
 }
 
-/* .svg-item {
-    justify-content: center;
-    text-align: center;
-} */
-
 .strategy-title {
     color: #2e2f42;
     font-size: 20px;
@@ -559,7 +554,7 @@ header {
     fill: #f4f4fd;
 }
 
-.icon-list:hover .icon-list-link,
+footer .icon-list:hover .icon-list-link,
 .icon-list:focus .icon-list-link {
     background-color: #31d0aa;
     
